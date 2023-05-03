@@ -1,3 +1,7 @@
 {
-	"cSpell.words": ["fastify", "rocketseat"]
+	"cSpell.words": ["fastify", "rocketseat"],
+	"yaml.schemas": {
+		"file:///Users/henriquelaki/.vscode/extensions/atlassian.atlascode-3.0.3/resources/schemas/pipelines-schema.json": "bitbucket-pipelines.yml",
+		"https://json.schemastore.org/github-workflow.json": "file:///Users/henriquelaki/estudos/rocketseat/2023/aulas/nodejs/03-api-solid/.github/.workflows/run-unit-tests.yml"
+	}
 }
