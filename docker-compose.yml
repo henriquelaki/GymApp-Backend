@@ -1,0 +1,11 @@
+version: "2"
+
+services:
+  api-gym-pg:
+    image: bitnami/postgresql:latest
+    environment:
+      - POSTGRESQL_USERNAME=gymdbadmin
+      - POSTGRESQL_PASSWORD=gymdbadmin
+      - POSTGRESQL_DATABASE=gymapidb
+    ports:
+      - 5432:5432
