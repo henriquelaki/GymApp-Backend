@@ -22,3 +22,6 @@ jobs:
 
       - name: Run Unit Tests
         run: npm run test
+        env:
+          NODE_ENV: "test"
+          JWT_SECRET: "jwt-secret"
