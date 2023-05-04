@@ -21,15 +21,15 @@ Gympass like app.
 - [x] User cannot do two check-ins in same day;
 - [x] User cannot check-in if the gym is less than 100 meters away;
 - [x] Any check-in can only be validated until 20 minutes after being done;
-- [ ] Check-in can only be validated by admins;
-- [ ] Gym can only be registered by admins;
+- [x] Check-in can only be validated by admins;
+- [x] Gym can only be registered by admins;
 
 ## Non-functional Requirements
 
 - [x] User password should be encrypted;
 - [x] App data should be stored in a PostgreSQL database;
 - [x] All listed data should be paginated with 20 items per page;
-- [ ] User must be identified by a JWT token;
+- [x] User must be identified by a JWT token;
 
 ## Dev env installation
 
