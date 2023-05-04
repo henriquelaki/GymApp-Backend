@@ -37,24 +37,35 @@ You can see below the defined routes for this app:
 ### User
 
 | Method | Route | Description |
+
 | GET | /me | Retrieves authenticated user profile info |
+
 | POST | /users | Sign up a new user |
+
 | POST | /sessions | Authenticate a user |
+
 | PATCH | /token/refresh | Get a new session and refresh token to keep user authenticated |
 
 ### Check-in
 
 | Method | Route | Description |
+
 | GET | /check-ins/history | Retrieves authenticated user check-ins history |
+
 | GET | /check-ins/metrics | Retrieves authenticated user check-ins metrics |
+
 | PATCH | /check-ins/:checkInId/validate | Validates a check-in |
 
 ### Gym
 
 | Method | Route | Description |
+
 | GET | /gyms/search | Search for gyms by title |
+
 | GET | /gyms/nearby | Search for gyms near authenticated user |
+
 | POST | /gyms/:gymId/check-in | Check-in in a gym |
+
 | POST | /gyms | Register a new gym |
 
 ## Running the app
